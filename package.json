@@ -1,0 +1,48 @@
+{
+  "author": "Meer Sagor",
+  "name": "@meersagor/generateformdata",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:meer-sagor/generate-form-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meer-sagor/generate-form-data/issues"
+  },
+  "main": "./dist/@meersagor-generateFormData.umd.cjs",
+  "module": "./dist/@meersagor-generateFormData.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/@meersagor-generateFormData.umd.js",
+      "require": "./dist/@meersagor-generateFormData.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "formData",
+    "generate formData",
+    "javascript formData",
+    "vue formData",
+    "reactjs formData"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
