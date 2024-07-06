@@ -4,13 +4,13 @@ A tiny NPM package to generate any object or deeply nested object into `FormData
 ## Installation
 To install the package, run the following command:
 ```bash
-npm  install  package-name
+npm i @meersagor/generateformdata
 ```
 ## Usage
 #### Importing  the  Package
 To  use  the  package,  import  the  required  methods:
 ```javascript
-import  {  useGenerateFormData,  logGenerateFormData  }  from  'package-name';
+import  {  useGenerateFormData,  logGenerateFormData  }  from  '@meersagor/generateformdata';
 ```
 ### Example 1: Simple Object
 ```javascript
@@ -30,7 +30,7 @@ Here  is  an  example  of  how  to  use  the  package  with  an  object  that  i
 const  obj2  =  {
 	name:  'Meer Sagor',
 	age:  24,
-	skills: ['javascript', 'typescript',  'vuejs',  'nuxtjs',  'reactjs',  'nextjs'],
+	skills: ['javaScript', 'typeScript',  'vuejs',  'nuxtjs',  'reactjs',  'nextjs'],
 	file:  new  File(["content"], "filename.txt") //  Example  file  object
 };
 const  result  =  useGenerateFormData({ objectData: obj2, fileKey: 'attachment' });
