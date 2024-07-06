@@ -16,10 +16,10 @@
     "url": "https://github.com/meer-sagor/generate-form-data/issues"
   },
   "main": "./dist/@meersagor-generateFormData.umd.cjs",
-  "module": "./dist/@meersagor-generateFormData.umd.js",
+  "module": "./dist/@meersagor-generateFormData.js",
   "exports": {
     ".": {
-      "import": "./dist/@meersagor-generateFormData.umd.js",
+      "import": "./dist/@meersagor-generateFormData.js",
       "require": "./dist/@meersagor-generateFormData.umd.cjs"
     }
   },
