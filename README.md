@@ -1,6 +1,4 @@
-<div style="background-color: rgba(251,227,138,0.42); border: 1px solid #FFEB3B; padding: 10px; border-radius: 5px; color: white">
-**⚠ Notice: This Package is No Longer Maintained**
-</div>
+>**⚠ Notice: This Package is No Longer Maintained**
 
 Thank you for your support and use of this package. Please note that this package is now deprecated and will no longer receive updates, bug fixes, or support.
 
