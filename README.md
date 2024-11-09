@@ -1,3 +1,17 @@
+<div style="background-color: rgba(251,227,138,0.42); border: 1px solid #FFEB3B; padding: 10px; border-radius: 5px; color: white">
+**⚠ Notice: This Package is No Longer Maintained**
+</div>
+
+Thank you for your support and use of this package. Please note that this package is now deprecated and will no longer receive updates, bug fixes, or support.
+
+We recommend using the latest package, [new-package-name](https://www.npmjs.com/package/@meersagor/js-composable), which offers improved functionality, better support, and ongoing maintenance.
+
+### To migrate:
+- Check the [new package documentation](https://www.npmjs.com/package/@meersagor/js-composable) for installation and usage instructions.
+- If you have questions, please refer to the new package's support channels.
+
+Thank you for your understanding, and we appreciate your continued support in using our updated solutions!
+
 # useGenerateFormData
 A tiny NPM package to generate any object or deeply nested object into `FormData`. This package is built with TypeScript and can be used in any JavaScript application.
 
