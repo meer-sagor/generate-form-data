@@ -2,7 +2,7 @@
 
 Thank you for your support and use of this package. Please note that this package is now deprecated and will no longer receive updates, bug fixes, or support.
 
-We recommend using the latest package, [new-package-name](https://www.npmjs.com/package/@meersagor/js-composable), which offers improved functionality, better support, and ongoing maintenance.
+We recommend using the latest package, [js-composable](https://www.npmjs.com/package/@meersagor/js-composable), which offers improved functionality, better support, and ongoing maintenance.
 
 ### To migrate:
 - Check the [new package documentation](https://www.npmjs.com/package/@meersagor/js-composable) for installation and usage instructions.
